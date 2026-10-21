@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pytest / testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local model weights directory (downloaded via huggingface-cli)
+models/
+
+# Benchmark output runs
+results/
+logs/
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
